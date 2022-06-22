@@ -13,11 +13,10 @@
 }
 
 .introname{
-    height: 50%;
+    height: 70%;
     display: flex;
     padding: 50px;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .introright{

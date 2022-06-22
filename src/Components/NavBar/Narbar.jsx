@@ -1,11 +1,15 @@
 import React from "react";
 import './Navbar.css'
+import lab from "../Images/ele.svg"
+
 
 const Navbar =() =>{
     return (
         <div className="navbar">
             <div className="navleft">
-                <div className="navlogo">logo</div>
+                <div className="navlogo">
+                <img src={lab} alt="logo"/>
+                </div>
             </div>
             <div className="navright">
                 <div className="navlist">

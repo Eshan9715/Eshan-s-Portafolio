@@ -1,0 +1,50 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.a-left-card{
+    width: 60%;
+    height: 80vh;
+    border-radius: 30px;
+}
+
+.aboutImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.px{
+    display: flex;
+    flex-direction: column;
+}
+
+.py{
+    display: flex;
+    flex-direction: row;
+}
+
+.g{
+    margin-left: 15px;
+}
+
+.l{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.a-right{
+    flex: 1;
+}
