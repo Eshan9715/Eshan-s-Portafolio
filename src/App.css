@@ -1,3 +1,7 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
 :root{
     --yellow: #F5C32C;
     --orange: #FCA61F;
@@ -12,7 +16,7 @@
 
 
 .App {
-    padding: .5rem 3.5rem;
+    /* padding: .5rem 3.5rem; */
     overflow: hidden;
     color: #000;
 }
@@ -26,4 +30,27 @@
     background: linear-gradient(180deg , #fdc50f 26.71% #fb982f 99.36%);
     box-shadow: 0px 20px 24px 3px rgba(255, 161, 40, .45);
 }
+
+
+
+.title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
