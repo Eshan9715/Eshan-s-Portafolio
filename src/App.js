@@ -1,19 +1,25 @@
-import Navbar from "./Components/NavBar/Narbar";
-import Intro from "./Components/Intro/Intro";
-import About from "./Components/About/About";
+import React from "react"
+import Header from "./Components/Head/Header"
+import Features from "./Components/Features/Features"
+import Home from "./Components/Hero/Home"
+import Resume from "./Components/Resume/Resume"
+import Testimonial from "./Components/Testimonial/Testimonial"
+import Contact from "./Components/Contact/Contact"
+import Footer from "./Components/Footer"
 import "./App.css"
-import Services from "./Components/Services/Services";
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-    <Navbar/>
-    <Intro/>
-    <About/>
-    <Services/>
-    
-    </div>
+    <>
+      <Header />
+      <Home />
+      <Features />
+      <Resume />
+      <Testimonial />
+      <Contact />
+      <Footer />
+    </>
   )
-  
 }
 
-export default App;
+export default App
